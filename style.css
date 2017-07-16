@@ -1,12 +1,12 @@
 body {
-  background-image: url("art.jpeg");
+  background-image: url("pics/art.jpeg");
   height: 1000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-family:cursive;
+  font-family: sans-serif;
 }
 
 nav {
@@ -19,6 +19,14 @@ nav img {
 
 h1 {
   margin: 20px;
-  color: #07739A;
   font-weight: bold;
+}
+
+#heart {
+  max-width: 300px;
+}
+
+.jumbotron {
+  background: rgb(125, 127, 127); /* Fallback */
+  background: rgba(125, 127, 127, 0.5);
 }
