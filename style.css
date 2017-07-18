@@ -30,3 +30,15 @@ h1 {
   background: rgb(125, 127, 127); /* Fallback */
   background: rgba(125, 127, 127, 0.5);
 }
+
+.event {
+  align-content: center;
+}
+
+.poster {
+  max-width: 40%;
+}
+
+.video {
+  width: 40%;
+}
