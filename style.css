@@ -36,9 +36,19 @@ h1 {
 }
 
 .poster {
-  max-width: 40%;
+  max-width: 100%;
 }
 
 .video {
-  width: 40%;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .video {
+    width: 40%;
+    max-width: 560px;
+  }
+  .poster {
+    width: 40%;
+  }
 }
